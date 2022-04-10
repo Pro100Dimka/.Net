@@ -89,33 +89,40 @@ namespace Calculator_Best_V
 
         private void button11_Click(object sender, EventArgs e)
         {
-            char[] TextBoxResult = textBox1.Text.ToCharArray();
-            string[] rez = textBox1.Text.Split('+', '-', ' ', '/', '*');
-            int index = 1;
-            int result = Convert.ToInt32(rez[0]);
-            for (int i = 0; i < TextBoxResult.Length; i++)
+            try
             {
-                if (TextBoxResult[i] == '+')
+                char[] TextBoxResult = textBox1.Text.ToCharArray();
+                string[] rez = textBox1.Text.Split('+', '-', ' ', '/', '*');
+                int index = 1;
+                int result = Convert.ToInt32(rez[0]);
+                for (int i = 0; i < TextBoxResult.Length; i++)
                 {
-                    result += Convert.ToInt32(rez[index]);
-                    index++;
+                    if (TextBoxResult[i] == '+')
+                    {
+                        result += Convert.ToInt32(rez[index]);
+                        index++;
+                    }
+                    if (TextBoxResult[i] == '-')
+                    {
+                        result -= Convert.ToInt32(rez[index]);
+                        index++;
+                    }
+                    if (TextBoxResult[i] == '/')
+                    {
+                        result /= Convert.ToInt32(rez[index]);
+                        index++;
+                    }
+                    if (TextBoxResult[i] == '*')
+                    {
+                        result *= Convert.ToInt32(rez[index]);
+                        index++;
+                    }
+                    textBox1.Text = Convert.ToString(result);
                 }
-                if (TextBoxResult[i] == '-')
-                {
-                    result -= Convert.ToInt32(rez[index]);
-                    index++;
-                }
-                if (TextBoxResult[i] == '/')
-                {
-                    result /= Convert.ToInt32(rez[index]);
-                    index++;
-                }
-                if (TextBoxResult[i] == '*')
-                {
-                    result *= Convert.ToInt32(rez[index]);
-                    index++;
-                }
-                textBox1.Text = Convert.ToString(result);
+            }
+            catch
+            {
+                textBox1.Text = "Не верный формат";
             }
         }
     }
