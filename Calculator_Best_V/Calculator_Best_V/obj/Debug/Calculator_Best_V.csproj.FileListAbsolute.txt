@@ -1,0 +1,11 @@
+C:\Users\dimka\Desktop\ProgramingTasks\C#_Tasks\Calculator_Best_Version\Calculator_Best_V\Calculator_Best_V\bin\Debug\Calculator_Best_V.exe.config
+C:\Users\dimka\Desktop\ProgramingTasks\C#_Tasks\Calculator_Best_Version\Calculator_Best_V\Calculator_Best_V\bin\Debug\Calculator_Best_V.exe
+C:\Users\dimka\Desktop\ProgramingTasks\C#_Tasks\Calculator_Best_Version\Calculator_Best_V\Calculator_Best_V\bin\Debug\Calculator_Best_V.pdb
+C:\Users\dimka\Desktop\ProgramingTasks\C#_Tasks\Calculator_Best_Version\Calculator_Best_V\Calculator_Best_V\obj\Debug\Calculator_Best_V.csproj.AssemblyReference.cache
+C:\Users\dimka\Desktop\ProgramingTasks\C#_Tasks\Calculator_Best_Version\Calculator_Best_V\Calculator_Best_V\obj\Debug\Calculator_Best_V.csproj.SuggestedBindingRedirects.cache
+C:\Users\dimka\Desktop\ProgramingTasks\C#_Tasks\Calculator_Best_Version\Calculator_Best_V\Calculator_Best_V\obj\Debug\Calculator_Best_V.Form1.resources
+C:\Users\dimka\Desktop\ProgramingTasks\C#_Tasks\Calculator_Best_Version\Calculator_Best_V\Calculator_Best_V\obj\Debug\Calculator_Best_V.Properties.Resources.resources
+C:\Users\dimka\Desktop\ProgramingTasks\C#_Tasks\Calculator_Best_Version\Calculator_Best_V\Calculator_Best_V\obj\Debug\Calculator_Best_V.csproj.GenerateResource.cache
+C:\Users\dimka\Desktop\ProgramingTasks\C#_Tasks\Calculator_Best_Version\Calculator_Best_V\Calculator_Best_V\obj\Debug\Calculator_Best_V.csproj.CoreCompileInputs.cache
+C:\Users\dimka\Desktop\ProgramingTasks\C#_Tasks\Calculator_Best_Version\Calculator_Best_V\Calculator_Best_V\obj\Debug\Calculator_Best_V.exe
+C:\Users\dimka\Desktop\ProgramingTasks\C#_Tasks\Calculator_Best_Version\Calculator_Best_V\Calculator_Best_V\obj\Debug\Calculator_Best_V.pdb
