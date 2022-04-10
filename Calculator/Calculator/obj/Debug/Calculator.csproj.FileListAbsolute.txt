@@ -9,3 +9,14 @@ C:\Users\dimka\Desktop\ProgramingTasks\C#_Tasks\Calculator\Calculator\Calculator
 C:\Users\dimka\Desktop\ProgramingTasks\C#_Tasks\Calculator\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 C:\Users\dimka\Desktop\ProgramingTasks\C#_Tasks\Calculator\Calculator\Calculator\obj\Debug\Calculator.exe
 C:\Users\dimka\Desktop\ProgramingTasks\C#_Tasks\Calculator\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\dimka\Desktop\ProgramingTasks\Git\.Net\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\dimka\Desktop\ProgramingTasks\Git\.Net\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\dimka\Desktop\ProgramingTasks\Git\.Net\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\dimka\Desktop\ProgramingTasks\Git\.Net\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+C:\Users\dimka\Desktop\ProgramingTasks\Git\.Net\Calculator\Calculator\obj\Debug\Calculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\dimka\Desktop\ProgramingTasks\Git\.Net\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\dimka\Desktop\ProgramingTasks\Git\.Net\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\dimka\Desktop\ProgramingTasks\Git\.Net\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\dimka\Desktop\ProgramingTasks\Git\.Net\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\dimka\Desktop\ProgramingTasks\Git\.Net\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\dimka\Desktop\ProgramingTasks\Git\.Net\Calculator\Calculator\obj\Debug\Calculator.pdb

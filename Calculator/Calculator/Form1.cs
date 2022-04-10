@@ -29,10 +29,14 @@ namespace Calculator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double Firstnum; double SecondNum;
-            Firstnum = Convert.ToDouble(textBox1.Text);
-            SecondNum = Convert.ToDouble(textBox2.Text);   
-            switch (comboBox1.Text)
+            try
+            {
+
+            
+                double Firstnum; double SecondNum;
+                Firstnum = Convert.ToDouble(textBox1.Text);
+                SecondNum = Convert.ToDouble(textBox2.Text);   
+                switch (comboBox1.Text)
             {
                 case "+":
                     label3.Text += " " + Convert.ToString(Firstnum + SecondNum);
@@ -48,6 +52,11 @@ namespace Calculator
                     break;
 
 
+            }
+            }
+            catch
+            {
+                label3.Text = "Не правильный формат";
             }
         }
 
