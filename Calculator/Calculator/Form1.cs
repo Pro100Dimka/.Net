@@ -37,7 +37,7 @@ namespace Calculator
                 Firstnum = Convert.ToDouble(textBox1.Text);
                 SecondNum = Convert.ToDouble(textBox2.Text);   
                 switch (comboBox1.Text)
-            {
+                {
                 case "+":
                     label3.Text += " " + Convert.ToString(Firstnum + SecondNum);
                     break;
@@ -52,7 +52,7 @@ namespace Calculator
                     break;
 
 
-            }
+                }
             }
             catch
             {
