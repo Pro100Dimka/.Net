@@ -66,9 +66,32 @@ namespace Calculator_Best_V
         {
             textBox1.Text += "0";
         }
+        int sum = 0;
+        char[] TextBoxResultPlus;
+        string[] ParsingString;
+        int indexx;
+        int resultt;
         private void button12_Click(object sender, EventArgs e)
         {
+            if (sum == 1)
+            {
+                TextBoxResultPlus = textBox1.Text.ToCharArray();
+                ParsingString = textBox1.Text.Split('+');
+                indexx = 1;
+                resultt = Convert.ToInt32(ParsingString[0]);
+                for (int i = 0; i < TextBoxResultPlus.Length; i++)
+                {
+                    if (TextBoxResultPlus[i] == '+')
+                    {
+                        resultt += Convert.ToInt32(ParsingString[indexx]);
+                        indexx++;
+                    }
+                }
+               textBox1.Text = Convert.ToString(resultt);
+                sum = 0;
+            }
             textBox1.Text += "+";
+            sum += 1;
         }
         private void button16_Click(object sender, EventArgs e)
         {
@@ -124,6 +147,11 @@ namespace Calculator_Best_V
             {
                 textBox1.Text = "Не верный формат";
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
