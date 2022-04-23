@@ -16,7 +16,7 @@ namespace Calculator_Best_V
         char[] TextBoxResult;
         string[] ParsingString;
         int indexx;
-        int resultt;
+        double resultt;
         int ClearResult = 0;
         public Form1()
         {
@@ -123,7 +123,7 @@ namespace Calculator_Best_V
         // Кнопка прибавления
         private void button12_Click(object sender, EventArgs e)
         {
-            try
+            //try
             {
                 ClearResult = 0;
                 if (sum == 1)
@@ -131,27 +131,27 @@ namespace Calculator_Best_V
                     TextBoxResult = textBox1.Text.ToCharArray();
                     ParsingString = textBox1.Text.Split('+', '-', ' ', '/', '*');
                     indexx = 1;
-                    resultt = Convert.ToInt32(ParsingString[0]);
+                    resultt = Convert.ToDouble(ParsingString[0]);
                     for (int i = 0; i < TextBoxResult.Length; i++)
                     {
                         if (TextBoxResult[i] == '+')
                         {
-                            resultt += Convert.ToInt32(ParsingString[indexx]);
+                            resultt += Convert.ToDouble(ParsingString[indexx]);
                             indexx++;
                         }
                         else if (TextBoxResult[i] == '-')
                         {
-                            resultt -= Convert.ToInt32(ParsingString[indexx]);
+                            resultt -= Convert.ToDouble(ParsingString[indexx]);
                             indexx++;
                         }
                         else if (TextBoxResult[i] == '/')
                         {
-                            resultt /= Convert.ToInt32(ParsingString[indexx]);
+                            resultt /= Convert.ToDouble(ParsingString[indexx]);
                             indexx++;
                         }
                         else if (TextBoxResult[i] == '*')
                         {
-                            resultt *= Convert.ToInt32(ParsingString[indexx]);
+                            resultt *= Convert.ToDouble(ParsingString[indexx]);
                             indexx++;
                         }
                     }
@@ -161,10 +161,10 @@ namespace Calculator_Best_V
                 textBox1.Text += "+";
                 sum += 1;
             }
-            catch
+            /*catch
             {
                 textBox1.Text = "Не верный формат";
-            }
+            }*/
         }
         // Кнопка разницы
         private void button16_Click(object sender, EventArgs e)
@@ -182,22 +182,22 @@ namespace Calculator_Best_V
                     {
                         if (TextBoxResult[i] == '+')
                         {
-                            resultt += Convert.ToInt32(ParsingString[indexx]);
+                            resultt += Convert.ToDouble(ParsingString[indexx]);
                             indexx++;
                         }
                         else if (TextBoxResult[i] == '-')
                         {
-                            resultt -= Convert.ToInt32(ParsingString[indexx]);
+                            resultt -= Convert.ToDouble(ParsingString[indexx]);
                             indexx++;
                         }
                         else if (TextBoxResult[i] == '/')
                         {
-                            resultt /= Convert.ToInt32(ParsingString[indexx]);
+                            resultt /= Convert.ToDouble(ParsingString[indexx]);
                             indexx++;
                         }
                         else if (TextBoxResult[i] == '*')
                         {
-                            resultt *= Convert.ToInt32(ParsingString[indexx]);
+                            resultt *= Convert.ToDouble(ParsingString[indexx]);
                             indexx++;
                         }
                     }
@@ -229,22 +229,22 @@ namespace Calculator_Best_V
                     {
                         if (TextBoxResult[i] == '+')
                         {
-                            resultt += Convert.ToInt32(ParsingString[indexx]);
+                            resultt += Convert.ToDouble(ParsingString[indexx]);
                             indexx++;
                         }
                         else if (TextBoxResult[i] == '-')
                         {
-                            resultt -= Convert.ToInt32(ParsingString[indexx]);
+                            resultt -= Convert.ToDouble(ParsingString[indexx]);
                             indexx++;
                         }
                         else if (TextBoxResult[i] == '/')
                         {
-                            resultt /= Convert.ToInt32(ParsingString[indexx]);
+                            resultt /= Convert.ToDouble(ParsingString[indexx]);
                             indexx++;
                         }
                         else if (TextBoxResult[i] == '*')
                         {
-                            resultt *= Convert.ToInt32(ParsingString[indexx]);
+                            resultt *= Convert.ToDouble(ParsingString[indexx]);
                             indexx++;
                         }
                     }
@@ -275,22 +275,22 @@ namespace Calculator_Best_V
                     {
                         if (TextBoxResult[i] == '+')
                         {
-                            resultt += Convert.ToInt32(ParsingString[indexx]);
+                            resultt += Convert.ToDouble(ParsingString[indexx]);
                             indexx++;
                         }
                         else if (TextBoxResult[i] == '-')
                         {
-                            resultt -= Convert.ToInt32(ParsingString[indexx]);
+                            resultt -= Convert.ToDouble(ParsingString[indexx]);
                             indexx++;
                         }
                         else if (TextBoxResult[i] == '/')
                         {
-                            resultt /= Convert.ToInt32(ParsingString[indexx]);
+                            resultt /= Convert.ToDouble(ParsingString[indexx]);
                             indexx++;
                         }
                         else if (TextBoxResult[i] == '*')
                         {
-                            resultt *= Convert.ToInt32(ParsingString[indexx]);
+                            resultt *= Convert.ToDouble(ParsingString[indexx]);
                             indexx++;
                         }
                     }
@@ -320,27 +320,27 @@ namespace Calculator_Best_V
                 TextBoxResult = textBox1.Text.ToCharArray();
                 ParsingString = textBox1.Text.Split('+', '-', ' ', '/', '*');
                 indexx = 1;
-                resultt = Convert.ToInt32(ParsingString[0]);
+                resultt = Convert.ToDouble(ParsingString[0]);
                 for (int i = 0; i < TextBoxResult.Length; i++)
                 {
                     if (TextBoxResult[i] == '+')
                     {
-                        resultt += Convert.ToInt32(ParsingString[indexx]);
+                        resultt += Convert.ToDouble(ParsingString[indexx]);
                         indexx++;
                     }
                     else if (TextBoxResult[i] == '-')
                     {
-                        resultt -= Convert.ToInt32(ParsingString[indexx]);
+                        resultt -= Convert.ToDouble(ParsingString[indexx]);
                         indexx++;
                     }
                     else if (TextBoxResult[i] == '/')
                     {
-                        resultt /= Convert.ToInt32(ParsingString[indexx]);
+                        resultt /= Convert.ToDouble(ParsingString[indexx]);
                         indexx++;
                     }
                     else if (TextBoxResult[i] == '*')
                     {
-                        resultt *= Convert.ToInt32(ParsingString[indexx]);
+                        resultt *= Convert.ToDouble(ParsingString[indexx]);
                         indexx++;
                     }
                 }
@@ -356,6 +356,17 @@ namespace Calculator_Best_V
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void dot_Click(object sender, EventArgs e)
+        {
+            textBox1.Text += ",";
+
+            if (ClearResult == 1)
+            {
+                textBox1.Text = ",";
+                ClearResult = 0;
+            }
         }
     }
 }
